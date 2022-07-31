@@ -367,6 +367,28 @@ img {
   justify-content: center;
   align-items: center;
 }
+.main__find-location-container {
+  padding: 81px 0 138px 129px;
+  width: 681px;
+}
+.main__map-headline {
+  margin-bottom: 5px;
+}
+.main__map-title {
+  margin-bottom: 20px;
+  width: 580px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  color: #6D31D0;
+}
+.main__map-desc {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #434364;
+}
 
 .first, .second, .third, .fourth {
   border-radius: 800px;

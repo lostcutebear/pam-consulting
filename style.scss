@@ -429,6 +429,33 @@ img {
         justify-content: center;
         align-items: center;
     }
+
+    &__find-location-container {
+        padding: 81px 0 138px 129px;
+        width: 681px;
+    }
+
+    &__map-headline {
+        margin-bottom: 5px;
+    }
+
+    &__map-title {
+        margin-bottom: 20px;
+        width: 580px;
+        font-family: $secondary;
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 32px;
+        color: $pam_color1;
+    }
+
+    &__map-desc {
+        font-family: $primary;
+        font-size: 20px;
+        line-height: 32px;
+        color: $pam_color5;
+    }
+
 }
 
 .first, .second, .third, .fourth {
