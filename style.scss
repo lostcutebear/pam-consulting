@@ -1,0 +1,209 @@
+$primary: 'Montserrat', sans-serif;
+$secondary: 'Nunito', sans-serif;
+$header-primary: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
+$pam_color3: #FFDB80;
+$pam_color1: #6D31D0;
+$pam_color2: #828CDE;
+$pam_color6: #FFFFFF;
+$pam_color_linear9: linear-gradient(96.1deg, #FFEB80 -22.07%, #FDBFA3 123.25%);
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header {
+    background: $header-primary;
+    &__container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    &__nav-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 28px;
+
+        & a {
+            font-size: 16px;
+            font-family: $secondary;
+            font-weight: 500;
+            line-height: 22.4px;
+            color: $pam_color6;
+            text-transform: uppercase;
+        }
+    }
+
+    &__button-wrapper {
+        & button {
+            padding: 9px 24px;
+            cursor: pointer;
+            background: $pam_color3;
+            border: none;
+            border-radius: 30px;
+            font-size: 20px;
+            line-height: 32px;
+            text-align: center;
+            font-family: $primary;
+            font-weight: 600;
+            color: $pam_color1;
+        }
+    }
+}
+
+.main {
+    &__popular-cities {
+        background: url(./img/picture_home1.png) no-repeat top / cover;
+        height: 90vh;
+    }
+
+    &__popular-cities-container {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    &__popular-offer {
+        padding-top: 130px;
+    }
+
+    &__popular-offer-links {
+        display: flex;
+        gap: 22px;
+        & a {
+            color: $pam_color3;
+            background: rgba(109, 49, 208, 0.5);
+            text-transform: uppercase;
+            padding: 0 5px;
+            border-radius: 10px;
+            font-size: 16px;
+            line-height: 19.5px;
+            font-family: $primary;
+            font-weight: 500;
+        }
+    }
+
+    &__popular-offer-text {
+        margin-top: 24px;
+
+        & p, & div {
+            color: $pam_color6;
+            font-weight: 600;
+            font-family: $primary;
+            line-height: 40px;
+        }
+
+        & p {
+            font-size: 36px;
+        }
+
+        & div {
+            font-size: 20px;
+        }
+    }
+
+    &__popular-offer-desc {
+        margin-top: 24px;
+        & p {
+            width: 520px;
+            font-family: $secondary;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            color: $pam_color6;
+        }
+    }
+
+    &__popular-offer-find-wrapper {
+        margin-top: 23px;
+
+        & button {
+            margin-bottom: 78px;
+            width: 200px;
+            height: 48px;
+            padding: 16px 22px;
+            cursor: pointer;
+            background: $pam_color_linear9;
+            border: none;
+            border-radius: 35.27px;
+            font-size: 20px;
+            line-height: 16px;
+            font-family: $primary;
+            font-weight: 600;
+            color: $pam_color1;
+        }
+    }
+
+    &__popular-cities-wrapper {
+        width: 1440px;
+        margin: 0 auto;
+    }
+
+    &__cities-wrapper {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+        & div {
+            background-color: $pam_color6;
+            border-radius: 12px;
+            padding: 10px;
+
+            & img {
+                margin-bottom: 10px;
+            }
+
+            & p {
+                font-family: $primary;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 32px;
+                color: $pam_color2;
+            }
+        }
+    }
+
+    &__popular-cities-title-wrapper {
+        margin-bottom: 16px;
+
+        & h4 {
+            color: $pam_color6;
+            font-family: $primary;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+        }
+    }
+}
+
+
+

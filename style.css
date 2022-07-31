@@ -1,27 +1,174 @@
 html {
-    box-sizing: border-box;
-    font-size: 16px;
+  box-sizing: border-box;
+  font-size: 16px;
 }
 
 *, *:before, *:after {
-    box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
 }
 
 ol, ul {
-    list-style: none;
+  list-style: none;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
+
+.header {
+  background: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
+}
+.header__container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.header__nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+.header__nav-list a {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 500;
+  line-height: 22.4px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.header__button-wrapper button {
+  padding: 9px 24px;
+  cursor: pointer;
+  background: #FFDB80;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #6D31D0;
+}
+
+.main__popular-cities {
+  background: url(./img/picture_home1.png) no-repeat top/cover;
+  height: 90vh;
+}
+.main__popular-cities-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.main__popular-offer {
+  padding-top: 130px;
+}
+.main__popular-offer-links {
+  display: flex;
+  gap: 22px;
+}
+.main__popular-offer-links a {
+  color: #FFDB80;
+  background: rgba(109, 49, 208, 0.5);
+  text-transform: uppercase;
+  padding: 0 5px;
+  border-radius: 10px;
+  font-size: 16px;
+  line-height: 19.5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+.main__popular-offer-text {
+  margin-top: 24px;
+}
+.main__popular-offer-text p, .main__popular-offer-text div {
+  color: #FFFFFF;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 40px;
+}
+.main__popular-offer-text p {
+  font-size: 36px;
+}
+.main__popular-offer-text div {
+  font-size: 20px;
+}
+.main__popular-offer-desc {
+  margin-top: 24px;
+}
+.main__popular-offer-desc p {
+  width: 520px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+.main__popular-offer-find-wrapper {
+  margin-top: 23px;
+}
+.main__popular-offer-find-wrapper button {
+  margin-bottom: 78px;
+  width: 200px;
+  height: 48px;
+  padding: 16px 22px;
+  cursor: pointer;
+  background: linear-gradient(96.1deg, #FFEB80 -22.07%, #FDBFA3 123.25%);
+  border: none;
+  border-radius: 35.27px;
+  font-size: 20px;
+  line-height: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #6D31D0;
+}
+.main__popular-cities-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+.main__cities-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+.main__cities-wrapper div {
+  background-color: #FFFFFF;
+  border-radius: 12px;
+  padding: 10px;
+}
+.main__cities-wrapper div img {
+  margin-bottom: 10px;
+}
+.main__cities-wrapper div p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #828CDE;
+}
+.main__popular-cities-title-wrapper {
+  margin-bottom: 16px;
+}
+.main__popular-cities-title-wrapper h4 {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}/*# sourceMappingURL=style.css.map */
