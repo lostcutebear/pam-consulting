@@ -251,4 +251,51 @@ img {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #6D31D0;
+}
+.main__paradise-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  padding: 0 10px;
+}
+.main__paradise-text {
+  max-width: 540px;
+  padding: 0 60px;
+  text-align: center;
+}
+.main__paradise-text h2 {
+  text-transform: uppercase;
+  font-size: 40px;
+  margin-bottom: 33px;
+  line-height: 29px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+}
+.main__paradise-text p {
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-align: center;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+.main__paradise-text button {
+  width: 200px;
+  height: 48px;
+  padding: 16px 22px;
+  cursor: pointer;
+  background: linear-gradient(96.1deg, #FFEB80 -22.07%, #FDBFA3 123.25%);
+  border: none;
+  border-radius: 35.27px;
+  font-size: 20px;
+  line-height: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #6D31D0;
+}
+.main__paradise-title-wrapper {
+  width: 440px;
 }/*# sourceMappingURL=style.css.map */

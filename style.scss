@@ -294,6 +294,60 @@ img {
             }
         }
     }
+
+    &__paradise-container {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+        padding: 0 10px;
+    }
+
+    &__paradise-text {
+        max-width: 540px;
+        padding: 0 60px;
+        text-align: center;
+
+        & h2 {
+            text-transform: uppercase;
+            font-size: 40px;
+            margin-bottom: 33px;
+            line-height: 29px;
+            font-family: $secondary;
+            font-weight: 600;
+        }
+
+        & p {
+            font-size: 16px;
+            font-family: $secondary;
+            font-weight: 400;
+            letter-spacing: 0.5px;
+            text-align: center;
+            line-height: 24px;
+            margin-bottom: 25px;
+        }
+
+        & button {
+            width: 200px;
+            height: 48px;
+            padding: 16px 22px;
+            cursor: pointer;
+            background: $pam_color_linear9;
+            border: none;
+            border-radius: 35.27px;
+            font-size: 20px;
+            line-height: 16px;
+            font-family: $primary;
+            font-weight: 600;
+            color: $pam_color1;
+        }
+    }
+    
+    &__paradise-title-wrapper {
+        width: 440px;
+    }
+
 }
 
 
