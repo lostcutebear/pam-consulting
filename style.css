@@ -389,6 +389,103 @@ img {
   line-height: 32px;
   color: #434364;
 }
+.main__about-us {
+  background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+}
+.main__about-us-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 64px 130px 37px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main__about-us-who-we-are-headline {
+  margin-bottom: 18.25px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.main__about-us-who-we-are-text {
+  max-width: 480px;
+  margin-bottom: 60px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #FFFFFF;
+}
+.main__about-us-who-we-are-text:nth-child(2) {
+  margin-bottom: 20px;
+}
+.main__about-us-who-we-are-btn button {
+  padding: 9px 24px;
+  background: #FFDB80;
+  color: #6D31D0;
+  border: none;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+}
+.main__founder-card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 40px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.main__founder-card-info {
+  margin-top: 22px;
+}
+.main__founder-card-position {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  width: 106px;
+  color: #6D31D0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+}
+.main__founder-card-name {
+  margin-bottom: 17px;
+  margin-left: -7px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #434364;
+  width: 201px;
+}
+.main__founder-card-contact-link {
+  margin-left: -7px;
+}
+.main__founder-card-contact-link button {
+  padding: 11px 28px;
+  width: 147px;
+  height: 50px;
+  background: #FFDB80;
+  border: none;
+  border-radius: 24.4664px;
+  box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+  color: #6D31D0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21.6px;
+  text-align: center;
+}
 
 .first, .second, .third, .fourth {
   border-radius: 800px;

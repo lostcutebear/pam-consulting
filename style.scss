@@ -456,7 +456,118 @@ img {
         color: $pam_color5;
     }
 
+    &__about-us {
+        background: $pam_color_linear2;
+    }
+
+    &__about-us-container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 64px 130px 37px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__about-us-who-we-are-headline {
+        margin-bottom: 18.25px;
+        font-family: $secondary;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        color: $pam_color6;
+        text-transform: uppercase;
+    }
+
+    &__about-us-who-we-are-text {
+        max-width: 480px;
+        margin-bottom: 60px;
+        font-family: $secondary;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: $pam_color6;
+    }
+
+    &__about-us-who-we-are-text:nth-child(2) {
+        margin-bottom: 20px;
+    }
+
+    &__about-us-who-we-are-btn {
+        & button {
+            padding: 9px 24px;
+            background: $pam_color3;
+            color: $pam_color1;
+            border: none;
+            border-radius: 30px;
+            font-family: $primary;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+            text-align: center;
+            box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+        }
+    }
+
+    &__founder-card {
+        display: flex;
+        justify-content: flex-start;
+        padding: 20px;
+        gap: 40px;
+        background: rgba(255, 255, 255, 0.8);
+        box-shadow: 0px 14px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+    }
+
+    &__founder-card-info {
+        margin-top: 22px;
+    }
+
+    &__founder-card-position {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        width: 106px;
+        color: $pam_color1;
+        font-family: $primary;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    &__founder-card-name {
+        margin-bottom: 17px;
+        margin-left: -7px;
+        font-family: $secondary;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: $pam_color5;
+        width: 201px;
+    }
+
+    &__founder-card-contact-link {
+        margin-left: -7px;
+        & button {
+            padding: 11px 28px;
+            width: 147px;
+            height: 50px;
+            background: $pam_color3;
+            border: none;
+            border-radius: 24.4664px;
+            box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+            color: $pam_color1;
+            font-family: $primary;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 21.6px;
+            text-align: center;
+        }
+    }
 }
+
+
 
 .first, .second, .third, .fourth {
     border-radius: 800px;
