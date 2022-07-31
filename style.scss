@@ -12,6 +12,7 @@ $pam_color_linear3: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
 $pam_color_linear4: linear-gradient(66.27deg, #FE6F2D -10.45%, #FFD059 76.78%);
 $pam_color_linear5: linear-gradient(75.69deg, #828CDE -12.62%, #00B8C3 103.26%);
 $pam_color_linear8: linear-gradient(134.65deg, rgba(255, 185, 175, 0.3) -3.89%, #A651FB 94.34%);
+$pam_color_linear1: linear-gradient(180deg, rgba(109, 49, 208, 0.1) 0%, rgba(109, 49, 208, 0.21) 28.65%, rgba(109, 49, 208, 0.475) 53.12%, #6D31D0 100%);
 
 html {
     box-sizing: border-box;
@@ -630,6 +631,17 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    &__contact {
+        background: $pam_color_linear1;
+    }
+
+    &__contact-container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 80px 133px;
     }
 }
 

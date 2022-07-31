@@ -543,6 +543,15 @@ img {
   justify-content: center;
   align-items: center;
 }
+.main__contact {
+  background: linear-gradient(180deg, rgba(109, 49, 208, 0.1) 0%, rgba(109, 49, 208, 0.21) 28.65%, rgba(109, 49, 208, 0.475) 53.12%, #6D31D0 100%);
+}
+.main__contact-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 133px;
+}
 
 .first, .second, .third, .fourth, .how, .it, .works, .icons {
   border-radius: 800px;
