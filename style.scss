@@ -3,9 +3,11 @@ $secondary: 'Nunito', sans-serif;
 $header-primary: linear-gradient(90.49deg, #53269D 0%, #6D31D0 100.2%);
 $pam_color3: #FFDB80;
 $pam_color1: #6D31D0;
+$pam_color5: #434364;
 $pam_color2: #828CDE;
 $pam_color6: #FFFFFF;
 $pam_color_linear9: linear-gradient(96.1deg, #FFEB80 -22.07%, #FDBFA3 123.25%);
+$pam_color_linear2: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
 
 html {
     box-sizing: border-box;
@@ -83,11 +85,12 @@ img {
 .main {
     &__popular-cities {
         background: url(./img/picture_home1.png) no-repeat top / cover;
-        height: 90vh;
+        height: 800px;
     }
 
     &__popular-cities-container {
-        width: 1440px;
+        max-width: 1440px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -164,7 +167,8 @@ img {
     }
 
     &__popular-cities-wrapper {
-        width: 1440px;
+        max-width: 1440px;
+        width: 100%;
         margin: 0 auto;
     }
 
@@ -201,6 +205,93 @@ img {
             font-weight: 600;
             font-size: 20px;
             line-height: 32px;
+        }
+    }
+
+    &__services {
+        background: $pam_color_linear2;
+    }
+
+    &__services-container {
+        margin: 0 auto;
+        max-width: 1440px;
+        width: 100%;
+        padding-top: 80px;
+    }
+
+    &__services-headline-wrapper {
+        margin-bottom: 80px;
+        width: 380px;
+        height: 50px;
+        margin: 0 auto;
+    }
+    
+    &__services-headline {
+        text-align: center; 
+        font-family: $secondary;
+        font-weight: 600;
+        font-size: 36px;
+        color: $pam_color6;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    &__services-cards {
+        margin-top: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        gap: 20px;
+
+        & div {
+            max-width: 380px;
+            width: 100%;
+            max-height: 515px;
+            height: 100%;
+            text-align: center;
+            background-color: $pam_color6;
+            border-radius: 21px;
+
+            & h3 {
+                margin-top: 20px;
+                max-width: 380px;
+                height: 63px;
+                font-family: $secondary;
+                font-weight: 600;
+                font-size: 28px;
+                line-height: 32px;
+                text-align: center;
+                color: $pam_color5;
+                text-transform: uppercase;
+            }
+
+            & p {
+                margin: 0 auto;
+                margin-bottom: 20px;
+                font-family: $secondary;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: 0.5px;
+                max-width: 320px;
+            }
+
+            & button {
+                margin-bottom: 20px;
+                width: 200px;
+                height: 48px;
+                padding: 16px 22px;
+                cursor: pointer;
+                background: $pam_color_linear9;
+                border: none;
+                border-radius: 35.27px;
+                font-size: 20px;
+                line-height: 16px;
+                font-family: $primary;
+                font-weight: 600;
+                color: $pam_color1;
+            }
         }
     }
 }
