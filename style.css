@@ -299,4 +299,92 @@ img {
 }
 .main__paradise-title-wrapper {
   width: 440px;
+}
+.main__choose-cyprus {
+  background-color: #FFDB80;
+}
+.main__choose-cyprus-container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 80px 133px;
+}
+.main__choose-cyprus-headline {
+  margin-bottom: 60px;
+  text-align: center;
+}
+.main__choose-cyprus-title {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-family: "Nunito", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 600;
+  color: #434364;
+  text-transform: uppercase;
+}
+.main__choose-cyprus-desc {
+  max-width: 580px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: #434364;
+}
+.main__choose-cyprus-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+.main__choose-cyprus-icons img {
+  margin-bottom: 24px;
+}
+.main__choose-cyprus-icons h4 {
+  margin-bottom: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #6D31D0;
+}
+.main__choose-cyprus-icons p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #434364;
+}
+.main__choose-cyprus-icon-wrapper {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first, .second, .third, .fourth {
+  border-radius: 800px;
+  margin-bottom: 24px;
+}
+
+.first {
+  background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+}
+
+.second {
+  background: linear-gradient(66.27deg, #FE6F2D -10.45%, #FFD059 76.78%);
+}
+
+.third {
+  background: linear-gradient(75.69deg, #828CDE -12.62%, #00B8C3 103.26%);
+}
+
+.fourth {
+  background: linear-gradient(134.65deg, rgba(255, 185, 175, 0.3) -3.89%, #A651FB 94.34%);
 }/*# sourceMappingURL=style.css.map */

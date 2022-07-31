@@ -8,6 +8,10 @@ $pam_color2: #828CDE;
 $pam_color6: #FFFFFF;
 $pam_color_linear9: linear-gradient(96.1deg, #FFEB80 -22.07%, #FDBFA3 123.25%);
 $pam_color_linear2: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
+$pam_color_linear3: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%);
+$pam_color_linear4: linear-gradient(66.27deg, #FE6F2D -10.45%, #FFD059 76.78%);
+$pam_color_linear5: linear-gradient(75.69deg, #828CDE -12.62%, #00B8C3 103.26%);
+$pam_color_linear8: linear-gradient(134.65deg, rgba(255, 185, 175, 0.3) -3.89%, #A651FB 94.34%);
 
 html {
     box-sizing: border-box;
@@ -349,6 +353,103 @@ img {
         width: 440px;
     }
 
+    &__choose-cyprus {
+        background-color: $pam_color3;
+    }
+
+    &__choose-cyprus-container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 80px 133px;
+    }
+
+    &__choose-cyprus-headline {
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    &__choose-cyprus-title {
+        margin: 0 auto;
+        margin-bottom: 20px;
+        font-family: $secondary;
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 600;
+        color: $pam_color5;
+        text-transform: uppercase;
+    }
+
+    &__choose-cyprus-desc {
+        max-width: 580px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 24px;
+        font-family: $secondary;
+        font-weight: 400;
+        letter-spacing: 0.5px;
+        color: $pam_color5;
+    }
+
+    &__choose-cyprus-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        text-align: center;
+
+        & img {
+            margin-bottom: 24px;
+        }
+
+        & h4 {
+            margin-bottom: 4px;
+            font-family: $primary;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+            color: $pam_color1;
+        }
+
+        & p {
+            font-family: $secondary;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            color: $pam_color5;
+        }
+    }
+
+    &__choose-cyprus-icon-wrapper {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.first, .second, .third, .fourth {
+    border-radius: 800px;
+    margin-bottom: 24px;
+}
+
+.first {
+    background: $pam_color_linear2;
+}
+
+.second {
+    background: $pam_color_linear4;
+}
+
+.third {
+    background: $pam_color_linear5;
+}
+
+.fourth {
+    background: $pam_color_linear8;
 }
 
 
