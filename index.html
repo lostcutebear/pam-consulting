@@ -285,32 +285,42 @@
                         <p>Contact Us</p>
                     </div>
                     <div class="main__contact-tel">
-                        <img src="./img/contact_tel_icon.svg" alt="">
+                        <div class="main__contact-icon-wrapper">
+                            <img src="./img/contact_tel_icon.svg" alt="">
+                        </div>
                         <a href="tel:+3579056759">+357 9056759</a>
                     </div>
+
                     <div class="main__contact-email">
-                        <img src="./img/contact_tel_icon (1).svg" alt="">
+                        <div class="main__contact-icon-wrapper">
+                            <img src="./img/contact_tel_icon (1).svg" alt="">
+                        </div>
                         <a href="mailto:contact@pamrelocation.com">contact@pamrelocation.com</a>
                     </div>
+
                     <div class="main__contact-query">
                         <h3>send inquiry</h3>
                         <div class="main__contact-query-fields">
                             <form action="" method="get">
-                                <div class="main__contact-query-fields-name">
-                                    <input type="text" placeholder="Your Name">
+                                <div class="main__contact-query-fields-name-email">
+                                    <div class="main__contact-query-fields-name">
+                                        <input type="text" name="your-name" id="your-name" placeholder="Your Name">
+                                    </div>
+                                    <div class="main__contact-query-fields-email">
+                                        <input type="email" name="your-email" id="your-email" placeholder="Email">
+                                    </div>
                                 </div>
-                                <div class="main__contact-query-fields-email">
-                                    <input type="email" placeholder="Email">
+                                <div class="main__contact-query-fields-subject-phone">
+                                    <div class="main__contact-query-fields-subject">
+                                        <input type="text" name="your-subject" id="your-subject" placeholder="Subject">
+                                    </div>
+                                    <div class="main__contact-query-fields-phone">
+                                        <input type="number" name="your-phone" id="your-phone" placeholder="Phone">
+                                    </div>
                                 </div>
-                                <div class="main__contact-query-fields-subject">
-                                    <input type="text" placeholder="Subject">
-                                </div>
-                                <div class="main__contact-query-fields-phone">
-                                    <input type="number" placeholder="Phone">
-                                </div>
-                                <textarea placeholder="Your message" name="" id="" cols="50" rows="10"></textarea>
+                                <textarea placeholder="Your message" name="your-message" id="your-message" cols="62" rows="7"></textarea>
+
                                 <div class="main__terms-conditions">
-                                    <span></span>
                                     <p>By clicking “Submit button” you accept our <a href="#">Terms & Conditions</a> and have read our <a href="#">Privacy Policy</a> and <a href="#">Disclaimer</a></p>
                                 </div>
                                 <a href="#" class="main__contact-link">
@@ -321,10 +331,6 @@
                     </div>
                 </div>
             </section>
-
-
-
-
         </div>
     </main>
     <footer class="footer">
@@ -334,6 +340,12 @@
     </footer>
 </body>
 </html>
+                
+                                        
+
+
+
+
 
 
 
