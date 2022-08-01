@@ -726,6 +726,85 @@ img {
   align-items: center;
   gap: 20px;
 }
+.main__faq {
+  background: #6D31D0;
+}
+.main__faq-container {
+  max-width: 1440px;
+  border-radius: 5px;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+.main__faq-headline {
+  margin-bottom: 60px;
+}
+.main__faq-headline p {
+  color: #FFFFFF;
+  font-family: "Nunito", sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+}
+.main__faq-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+.main__faq-card {
+  background: #FFFFFF;
+  max-width: 380px;
+  width: 100%;
+  box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+  border-radius: 22px;
+}
+.main__faq-card h5 {
+  margin-bottom: 20px;
+  color: #6D31D0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 32px;
+}
+.main__faq-card p {
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #434364;
+}
+.main__faq-card-text-wrapper {
+  padding: 30px 30px 40px 30px;
+}
+
+.footer__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 21px;
+}
+.footer__container p, .footer__container a {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.footer__nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+.footer__nav-list span {
+  color: #FFFFFF;
+}
 
 .first, .second, .third, .fourth, .how, .it, .works, .icons {
   border-radius: 800px;

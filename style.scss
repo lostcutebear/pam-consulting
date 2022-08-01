@@ -841,6 +841,98 @@ img {
         align-items: center;
         gap: 20px;
     }
+
+    &__faq {
+        background: $pam_color1;
+    }
+
+    &__faq-container {
+        max-width: 1440px;
+        border-radius: 5px;
+        padding: 80px 0;
+        margin: 0 auto;
+    }
+
+    &__faq-headline {
+        margin-bottom: 60px;
+        & p { 
+            color: $pam_color6;
+            font-family: $secondary;
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 40px;
+            text-align: center;
+        }
+    }
+
+    &__faq-cards {
+        display: flex;
+        justify-content: center;
+        // align-items: center;
+        gap: 20px;
+        flex-shrink: 0;
+    }
+
+    &__faq-card {
+        background: $pam_color6;
+        max-width: 380px;
+        width: 100%;
+        box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+        border-radius: 22px;
+        & h5 {
+            margin-bottom: 20px;
+            color: $pam_color1;
+            font-family: $primary;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 32px;
+        }
+
+        & p {
+            font-family: $secondary;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            font-weight: 400;
+            color: $pam_color5;
+        }
+    }
+
+    &__faq-card-text-wrapper {
+        padding: 30px 30px 40px 30px;
+    }
+}
+
+.footer {
+    &__container {
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 21px;
+        & p, & a {
+            font-family: $secondary;
+            font-weight: 400;
+            font-size: 16px;
+            letter-spacing: 0.5px;
+            line-height: 24px;
+            color: $pam_color6;
+        }
+    }
+
+    &__nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+
+        & span {
+            color: $pam_color6;
+        }
+    }
+
 }
 
 .first, .second, .third, .fourth, .how, .it, .works, .icons {
