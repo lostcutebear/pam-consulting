@@ -431,6 +431,11 @@ img {
         align-items: center;
     }
 
+    &__find-location {
+        background: #FFFDD0;
+    }
+
+
     &__find-location-container {
         padding: 81px 0 138px 129px;
         width: 681px;
@@ -809,6 +814,32 @@ img {
             text-align: center;
             border: none;
         }
+    }
+
+    &__partners-container {
+        padding: 80px 129px;
+        max-width: 1438px;
+        margin: 0 auto;
+    }
+
+    &__partners-headline {
+        margin-bottom: 60px;
+        & p {
+            font-size: 36px;
+            font-family: $secondary;
+            font-weight: 600;
+            line-height: 40px;
+            text-align: center;
+            color: $pam_color5;
+            text-transform: uppercase;
+        }
+    }
+
+    &__partners-images {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
     }
 }
 

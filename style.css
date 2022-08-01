@@ -367,6 +367,9 @@ img {
   justify-content: center;
   align-items: center;
 }
+.main__find-location {
+  background: #FFFDD0;
+}
 .main__find-location-container {
   padding: 81px 0 138px 129px;
   width: 681px;
@@ -699,6 +702,29 @@ img {
   line-height: 24px;
   text-align: center;
   border: none;
+}
+.main__partners-container {
+  padding: 80px 129px;
+  max-width: 1438px;
+  margin: 0 auto;
+}
+.main__partners-headline {
+  margin-bottom: 60px;
+}
+.main__partners-headline p {
+  font-size: 36px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  line-height: 40px;
+  text-align: center;
+  color: #434364;
+  text-transform: uppercase;
+}
+.main__partners-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .first, .second, .third, .fourth, .how, .it, .works, .icons {
