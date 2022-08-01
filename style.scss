@@ -13,7 +13,7 @@ $pam_color_linear4: linear-gradient(66.27deg, #FE6F2D -10.45%, #FFD059 76.78%);
 $pam_color_linear5: linear-gradient(75.69deg, #828CDE -12.62%, #00B8C3 103.26%);
 $pam_color_linear8: linear-gradient(134.65deg, rgba(255, 185, 175, 0.3) -3.89%, #A651FB 94.34%);
 $pam_color_linear1: linear-gradient(180deg, rgba(109, 49, 208, 0.1) 0%, rgba(109, 49, 208, 0.21) 28.65%, rgba(109, 49, 208, 0.475) 53.12%, #6D31D0 100%);
-
+$pam_color_linear6: linear-gradient(90deg, #6D31D0 0%, #AB80EF 104.7%);
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -643,9 +643,174 @@ img {
         margin: 0 auto;
         padding: 80px 133px;
     }
+
+    &__contact-headline {
+        margin-bottom: 80px;
+        // text-align: center;
+        & p {
+            text-align: center;
+            font-size: 36px;
+            font-family: $secondary;
+            font-weight: 600;
+            line-height: 40px;
+            text-transform: uppercase;
+            color: $pam_color5;
+        }
+    }
+
+    &__contact-tel, &__contact-email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: none;
+        flex-grow: 0;
+        & a {
+            font-family: $primary;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 32px;
+            color: $pam_color1;
+        }
+    }
+
+    &__contact-icon-wrapper {
+        width: 40px;
+        height: 40px;
+        background: $pam_color_linear6;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        border-radius: 50%;
+    }
+
+    &__contact-tel {
+        margin-bottom: 30px;
+
+        & img {
+            margin-bottom: 6px;
+        }
+    }
+
+    &__contact-email {
+        margin-bottom: 60px;
+
+        & img {
+            margin-bottom: 10px;
+        }
+    }
+
+    &__contact-query {
+        max-width: 1180px;
+        height: 600px;
+        background: rgba(255, 219, 128, 0.5);
+        border-radius: 60px;
+        padding-top: 34px;
+
+        & h3 {
+            margin-bottom: 20px;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 28px;
+            font-family: $secondary;
+            line-height: 32px;
+            color: $pam_color5;
+        }
+    }
+
+    &__contact-query-fields {
+        text-align: center;
+
+        & textarea {
+            margin-bottom: 20px;
+            resize: none;
+            color: $pam_color6;
+            border: none;
+            outline: none;
+            padding: 12.5px 22px 10.5px;
+            box-shadow: 0px 4px 8px rgba(28, 37, 44, 0.08);
+            border-radius: 20px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            font-family: $secondary;
+            font-weight: 400;
+            color: $pam_color5; 
+        }
+    }
+
+    &__contact-query-fields-name-email, &__contact-query-fields-subject-phone {
+        margin: 0 auto;
+        margin-bottom: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex: 1;
+
+        & input {
+            width: 280px;
+            // width: 100%;
+            color: $pam_color6;
+            border: none;
+            outline: none;
+            padding: 12.5px 22px 10.5px;
+            box-shadow: 0px 4px 8px rgba(28, 37, 44, 0.08);
+            border-radius: 20px;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            font-family: $secondary;
+            font-weight: 400;
+            color: $pam_color5;
+        }
+    }
+
+    &__terms-conditions { 
+        max-width: 580px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        user-select: none;
+        cursor: pointer;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 24px;
+
+        & p { 
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            font-family: $secondary;
+            font-weight: 400;
+            color: $pam_color5;
+        }
+
+        & a { 
+            text-decoration: underline;
+            color: $pam_color1;
+        }
+
+    }
+
+    &__contact-link {
+        & button {
+            width: 138px;
+            border-radius: 30px;
+            padding: 14px 34px;
+            background: $pam_color3;
+            box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08);
+            color: $pam_color1;
+            font-family: $secondary;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            border: none;
+        }
+    }
 }
-
-
 
 .first, .second, .third, .fourth, .how, .it, .works, .icons {
     border-radius: 800px;
@@ -667,6 +832,10 @@ img {
 .fourth, .icons {
     background: $pam_color_linear8;
 }
+
+
+
+
 
 
 
